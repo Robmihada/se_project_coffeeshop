@@ -1,0 +1,69 @@
+.about {
+    padding: 100px 80px 173px;
+    display: flex;
+    background-color: #0a2850;
+    justify-content: space-between;
+    color: #fff;
+    position: relative;
+    overflow: hidden; /* Hide overflowing content */
+  }
+
+  .about__title {
+    color: #fff;
+    max-width: 251px;
+    z-index: 4;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    margin: 0px;
+    text-align: left;
+  }
+
+  .about__content {
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 660px;
+    margin-top: 19px;
+    position: relative;
+  }
+
+  .about__paragraph {
+    margin: 0 0 20px 0;
+    justify-content: flex-end;
+  }
+
+  .about__circle {
+    background-color: #1878dc;
+    border-radius: 50%;
+    width: 426px;
+    height: 426px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: -152px;
+    left: -129px;
+  }
+
+  .about__circle_animation_blurred {
+    animation: pulsate 1.3s ease-in-out infinite alternate;
+  }
+
+  @keyframes pulsate {
+    0% {
+      opacity: 100%;
+    }
+
+    50% {
+      opacity: 50%;
+    }
+
+    100% {
+      transform: scale(1.3);
+      opacity: 0%;
+    }
+  }

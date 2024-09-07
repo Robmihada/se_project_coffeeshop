@@ -6,7 +6,5 @@
 @import url(../blocks/form.css);
 @import url(../blocks/menu.css);
 @import url(../blocks/card.css);
-
-.about {
-  background-color: #0A2850;
-}
+@import url(../blocks/about.css);
+@import url(../blocks/footer.css);
