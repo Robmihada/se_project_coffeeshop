@@ -8,7 +8,6 @@
     <meta name="description" content="Coffee Shop Landing Page">
     <meta name="keywords" content="HTML, CSS">
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +42,7 @@
                 <p class="header__paragraph">Monday-Friday (10:00 19:00)</p>
                 <p class="header__paragraph">Saturday-Sunday (11:00 18:00)</p>
               </div>
-              <p class="header__address">200 Success Avenue, The Town of Triple Peaks</p>
+              <p class="header__paragraph">200 Success Avenue, The Town of Triple Peaks</p>
             </div>
       </header>
       <main class="content">
@@ -118,7 +117,7 @@
               >
             </label>
           </fieldset>
-          <button class="form__button">Book a table</button>
+          <button class="form__button" type="submit">Book a table</button>
           <label for="checkbox-input" class="form__label form__label_type_checkbox">
             <input class="form__checkbox"
             id="checkbox-input"
@@ -134,27 +133,27 @@
             <li class="card">
             <h3 class="card__title">Filter</h3>
             <ul class="card__list">
-            <li class="card__list-item">
+            <li class="card__list_item">
               Regular(12 oz)
               <span class="card__list-divider"></span>
               $1
             </li>
-            <li class="card__list-item">
+            <li class="card__list_item">
               Large (16 oz)
               <span class="card__list-divider"></span>
               $1.25
             </li>
-            <li class="card__list-item">
+            <li class="card__list_item">
               XL (20 oz)
               <span class="card__list-divider"></span>
               $1.5
             </li>
-            <li class="card__list-item">
+            <li class="card__list_item">
               Party-size (24 oz, decaf)
               <span class="card__list-divider"></span>
               $1.75
             </li>
-            <li class="card__list-item">
+            <li class="card__list_item">
               Iced Coffee (16 oz)
               <span class="card__list-divider"></span>
               $1.25
@@ -164,22 +163,22 @@
           <li class="card">
             <h3 class="card__title">Espresso</h3>
             <ul class="card__list">
-              <li class="card__list-item">
+              <li class="card__list_item">
                 Macchiato
                 <span class="card__list-divider"></span>
                 $2.25
               </li>
-              <li class="card__list-item">
+              <li class="card__list_item">
                 Cortado
                 <span class="card__list-divider"></span>
                 $2.5
               </li>
-              <li class="card__list-item">
+              <li class="card__list_item">
                 Mocha
                 <span class="card__list-divider"></span>
                 $3
               </li>
-              <li class="card__list-item">
+              <li class="card__list_item">
                 Sunrise in the Bay Area (decaf)
                 <span class="card__list-divider"></span>
                 $10
@@ -189,32 +188,32 @@
           <li class="card">
             <h3 class="card__title">Baked Goods</h3>
             <ul class="card__list">
-              <li class="card__list-item">
+              <li class="card__list_item">
                 Almond Croissant
                 <span class="card__list-divider"></span>
                 $2
               </li>
-              <li class="card__list-item">
+              <li class="card__list_item">
                 Banana Bread
                 <span class="card__list-divider"></span>
                 $1.75
               </li>
-              <li class="card__list-item">
+              <li class="card__list_item">
                 Key Lime Pie
                 <span class="card__list-divider"></span>
                 $3
               </li>
-              <li class="card__list-item">
+              <li class="card__list_item">
                 Blue Velvet Cake
                 <span class="card__list-divider"></span>
                 $3.75
               </li>
-              <li class="card__list-item">
+              <li class="card__list_item">
                 Web Cookie
                 <span class="card__list-divider"></span>
                 $2
               </li>
-              <li class="card__list-item">
+              <li class="card__list_item">
                 Fresh Bug’uette
                 <span class="card__list-divider"></span>
                 $0.25
@@ -226,10 +225,10 @@
         <section id="about" class="about">
           <h4 class="about__title">About the coffee shop</h4>
           <div class="about__content">
-            <p class="paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6
+            <p class="about__paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6
               tables and free WiFi.</p>
-            <p class="paragraph">Our main mission is keeping guests cozy and energized.</p>
-            <p class="paragraph">Besides that, we try to reduce our environmental impact — so we
+            <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p>
+            <p class="about__paragraph">Besides that, we try to reduce our environmental impact — so we
               don't sell single-use cups. But you can buy one of our reusable cups!</p>
           </div>
           <div class="about__circle"></div>
@@ -244,13 +243,13 @@
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a href="#" class="footer__social-link">
-                <img src="./images/facebook_white.svg" alt="facebook-icon" class="footer_social-icon">
+                <img src="./images/facebook_white.svg" alt="facebook-icon" class="footer__social-icon">
                 Facebook
                 </a>
               </li>
               <li class="footer__list-item">
                 <a href="#" class="footer__social-link">
-                  <img src="./images/instagram_white.svg" alt="instagram-icon" class="footer_social-icon">
+                  <img src="./images/instagram_white.svg" alt="instagram-icon" class="footer__social-icon">
                   Instagram
                 </a>
               </li>

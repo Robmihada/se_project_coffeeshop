@@ -11,13 +11,17 @@
     margin: 0 0 32px;
   }
 
-  .card__list-item {
+  .card__list {
+    padding-left: 0;
+  }
+
+  .card__list_item {
     display: flex;
     padding: 0;
     margin-bottom: 16px;
   }
 
-  .card__list-item:last-child {
+  .card__list_item:last-child {
     margin-bottom: 0;
   }
 

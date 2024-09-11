@@ -37,6 +37,10 @@
     justify-content: flex-end;
   }
 
+  .about__paragraph:last-of-type {
+  margin-bottom: 0;
+  }
+
   .about__circle {
     background-color: #1878dc;
     border-radius: 50%;
@@ -50,7 +54,7 @@
   }
 
   .about__circle_animation_blurred {
-    animation: pulsate 1.3s ease-in-out infinite alternate;
+    animation: pulsate 1.3s ease-in-out infinite;
   }
 
   @keyframes pulsate {
