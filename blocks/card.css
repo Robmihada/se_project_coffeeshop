@@ -15,13 +15,13 @@
     padding-left: 0;
   }
 
-  .card__list_item {
+  .card__list-item {
     display: flex;
     padding: 0;
     margin-bottom: 16px;
   }
 
-  .card__list_item:last-child {
+  .ccard__list-item:last-child {
     margin-bottom: 0;
   }
 
